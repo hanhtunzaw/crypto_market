@@ -56,7 +56,7 @@ crypto_bi_project/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/crypto_market.git
+git clone https://github.com/hanhtunzaw/crypto_market.git
 cd crypto_market
 ```
 
@@ -140,6 +140,6 @@ Get notified when the ETL pipeline succeeds or fails.
 
 ## 📫 Let’s Connect
 
-If you're interested in similar projects or want to collaborate, feel free to connect with me on LinkedIn or check out my other repositories!
+I'm always open to collaboration and sharing ideas. Let's connect on [LinkedIn](https://www.linkedin.com/in/han-htun-zaw-835ab8336/) or explore more of my work on [GitHub](https://github.com/hanhtunzaw)!
 
 ⭐ If you found this helpful, give it a star on GitHub!
