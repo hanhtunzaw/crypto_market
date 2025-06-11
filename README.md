@@ -126,6 +126,6 @@ This project sharpened my skills in:
 
 ## 📫 Let’s Connect
 
-If you're interested in similar projects or want to collaborate, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/hanhtunzaw) or check out my other repositories!
+If you're interested in similar projects or want to collaborate, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/han-htun-zaw-835ab8336/) or check out my other repositories!
 
 ---
