@@ -1,0 +1,166 @@
+2025-06-11 10:08:58,234 - INFO - === START: Crypto ETL Pipeline ===
+2025-06-11 10:08:58,234 - INFO - Running: scripts/extract.py
+2025-06-11 10:08:59,867 - INFO - Finished: scripts/extract.py
+2025-06-11 10:08:59,867 - INFO - Running: scripts/transform.py
+2025-06-11 10:09:00,704 - INFO - Finished: scripts/transform.py
+2025-06-11 10:09:00,704 - INFO - Running: scripts/load.py
+2025-06-11 10:09:01,428 - INFO - Finished: scripts/load.py
+2025-06-11 10:09:01,429 - INFO - === SUCCESS: Pipeline completed ===
+2025-06-11 10:09:02,918 - ERROR - \u274c ETL Failed
+Traceback (most recent call last):
+  File "C:\Users\Legion\Desktop\Final\Third Semester\BI\crypto_bi_project\pipeline_scheduler.py", line 28, in <module>
+    send_alert("\u2705 Crypto ETL Completed",
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               "Your crypto ETL pipeline ran successfully.\n\nCheck the log file: etl.log")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion\Desktop\Final\Third Semester\BI\crypto_bi_project\send_email.py", line 12, in send_alert
+    server.login("your_email@example.com", "your_app_password")
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\Legion\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-ade1dc1c3d2sm843432866b.81 - gsmtp')
+2025-06-11 10:14:17,111 - INFO - === START: Crypto ETL Pipeline ===
+2025-06-11 10:14:17,111 - INFO - Running: scripts/extract.py
+2025-06-11 10:14:18,735 - INFO - Finished: scripts/extract.py
+2025-06-11 10:14:18,735 - INFO - Running: scripts/transform.py
+2025-06-11 10:14:19,470 - INFO - Finished: scripts/transform.py
+2025-06-11 10:14:19,470 - INFO - Running: scripts/load.py
+2025-06-11 10:14:20,270 - INFO - Finished: scripts/load.py
+2025-06-11 10:14:20,270 - INFO - === SUCCESS: Pipeline completed ===
+2025-06-11 10:14:21,175 - ERROR - \u274c ETL Failed
+Traceback (most recent call last):
+  File "C:\Users\Legion\Desktop\Final\Third Semester\BI\crypto_bi_project\pipeline_scheduler.py", line 28, in <module>
+    send_alert("\u2705 Crypto ETL Completed",
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               "Your crypto ETL pipeline ran successfully.\n\nCheck the log file: etl.log")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion\Desktop\Final\Third Semester\BI\crypto_bi_project\send_email.py", line 12, in send_alert
+    server.login("your_email@example.com", "your_app_password")
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\Legion\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-ade1dc3870dsm851300066b.128 - gsmtp')
+2025-06-11 10:15:26,146 - INFO - === START: Crypto ETL Pipeline ===
+2025-06-11 10:15:26,146 - INFO - Running: scripts/extract.py
+2025-06-11 10:15:28,109 - INFO - Finished: scripts/extract.py
+2025-06-11 10:15:28,109 - INFO - Running: scripts/transform.py
+2025-06-11 10:15:28,952 - INFO - Finished: scripts/transform.py
+2025-06-11 10:15:28,952 - INFO - Running: scripts/load.py
+2025-06-11 10:15:29,839 - INFO - Finished: scripts/load.py
+2025-06-11 10:15:29,839 - INFO - === SUCCESS: Pipeline completed ===
+2025-06-11 10:15:30,523 - ERROR - \u274c ETL Failed
+Traceback (most recent call last):
+  File "C:\Users\Legion\Desktop\Final\Third Semester\BI\crypto_bi_project\pipeline_scheduler.py", line 28, in <module>
+    send_alert("\u2705 Crypto ETL Completed",
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               "Your crypto ETL pipeline ran successfully.\n\nCheck the log file: etl.log")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion\Desktop\Final\Third Semester\BI\crypto_bi_project\send_email.py", line 12, in send_alert
+    server.login("your_email@example.com", "your_app_password")
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 750, in login
+    raise last_exception
+  File "C:\Users\Legion\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-ade1dc7c724sm859061966b.175 - gsmtp')
+2025-06-11 10:21:14,101 - INFO - === START: Crypto ETL Pipeline ===
+2025-06-11 10:21:14,101 - INFO - Running: scripts/extract.py
+2025-06-11 10:21:14,191 - ERROR - \u274c ETL Failed
+Traceback (most recent call last):
+  File "C:\Users\Legion\Desktop\Final\Third Semester\BI\crypto_bi_project\pipeline_scheduler.py", line 22, in <module>
+    run_step("scripts/extract.py")
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion\Desktop\Final\Third Semester\BI\crypto_bi_project\pipeline_scheduler.py", line 17, in run_step
+    raise RuntimeError(f"{script_name} failed with exit code {result}")
+RuntimeError: scripts/extract.py failed with exit code 1
+2025-06-11 10:21:46,571 - INFO - === START: Crypto ETL Pipeline ===
+2025-06-11 10:21:46,571 - INFO - Running: scripts/extract.py
+2025-06-11 10:21:47,508 - ERROR - \u274c ETL Failed
+Traceback (most recent call last):
+  File "C:\Users\Legion\Desktop\Final\Third Semester\BI\crypto_bi_project\pipeline_scheduler.py", line 22, in <module>
+    run_step("scripts/extract.py")
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Legion\Desktop\Final\Third Semester\BI\crypto_bi_project\pipeline_scheduler.py", line 17, in run_step
+    raise RuntimeError(f"{script_name} failed with exit code {result}")
+RuntimeError: scripts/extract.py failed with exit code 1
+2025-06-11 10:23:05,081 - INFO - === START: Crypto ETL Pipeline ===
+2025-06-11 10:23:05,081 - INFO - Running: scripts/extract.py
+2025-06-11 10:23:10,149 - INFO - Finished: scripts/extract.py
+2025-06-11 10:23:10,149 - INFO - Running: scripts/transform.py
+2025-06-11 10:23:10,897 - INFO - Finished: scripts/transform.py
+2025-06-11 10:23:10,897 - INFO - Running: scripts/load.py
+2025-06-11 10:23:11,663 - INFO - Finished: scripts/load.py
+2025-06-11 10:23:11,663 - INFO - === SUCCESS: Pipeline completed ===
+2025-06-11 10:46:01,003 - INFO - === START: Crypto ETL Pipeline ===
+2025-06-11 10:46:01,004 - INFO - Running: scripts/extract.py
+2025-06-11 10:46:03,177 - INFO - Finished: scripts/extract.py
+2025-06-11 10:46:03,177 - INFO - Running: scripts/transform.py
+2025-06-11 10:46:03,852 - INFO - Finished: scripts/transform.py
+2025-06-11 10:46:03,852 - INFO - Running: scripts/load.py
+2025-06-11 10:46:04,563 - INFO - Finished: scripts/load.py
+2025-06-11 10:46:04,563 - INFO - === SUCCESS: Pipeline completed ===
+2025-06-11 11:12:30,883 - INFO - === START: Crypto ETL Pipeline ===
+2025-06-11 11:12:30,884 - INFO - Running: scripts/extract.py
+2025-06-11 11:12:32,944 - INFO - Finished: scripts/extract.py
+2025-06-11 11:12:32,945 - INFO - Running: scripts/transform.py
+2025-06-11 11:12:33,614 - INFO - Finished: scripts/transform.py
+2025-06-11 11:12:33,614 - INFO - Running: scripts/load.py
+2025-06-11 11:12:34,302 - INFO - Finished: scripts/load.py
+2025-06-11 11:12:34,303 - INFO - === SUCCESS: Pipeline completed ===
+2025-06-11 11:35:38,905 - INFO - === START: Crypto ETL Pipeline ===
+2025-06-11 11:35:38,906 - INFO - Running: scripts/extract.py
+2025-06-11 11:35:41,168 - INFO - Finished: scripts/extract.py
+2025-06-11 11:35:41,168 - INFO - Running: scripts/transform.py
+2025-06-11 11:35:41,837 - INFO - Finished: scripts/transform.py
+2025-06-11 11:35:41,837 - INFO - Running: scripts/load.py
+2025-06-11 11:35:42,672 - INFO - Finished: scripts/load.py
+2025-06-11 11:35:42,673 - INFO - === SUCCESS: Pipeline completed ===
+2025-06-11 11:52:18,521 - INFO - === START: Crypto ETL Pipeline ===
+2025-06-11 11:52:18,521 - INFO - Running: scripts/extract.py
+2025-06-11 11:52:20,903 - INFO - Finished: scripts/extract.py
+2025-06-11 11:52:20,903 - INFO - Running: scripts/transform.py
+2025-06-11 11:52:21,544 - INFO - Finished: scripts/transform.py
+2025-06-11 11:52:21,544 - INFO - Running: scripts/load.py
+2025-06-11 11:52:22,221 - INFO - Finished: scripts/load.py
+2025-06-11 11:52:22,221 - INFO - === SUCCESS: Pipeline completed ===
+2025-06-11 12:21:22,665 - INFO - === START: Crypto ETL Pipeline ===
+2025-06-11 12:21:22,665 - INFO - Running: scripts/extract.py
+2025-06-11 12:21:25,226 - INFO - Finished: scripts/extract.py
+2025-06-11 12:21:25,226 - INFO - Running: scripts/transform.py
+2025-06-11 12:21:25,874 - INFO - Finished: scripts/transform.py
+2025-06-11 12:21:25,874 - INFO - Running: scripts/load.py
+2025-06-11 12:21:26,572 - INFO - Finished: scripts/load.py
+2025-06-11 12:21:26,572 - INFO - === SUCCESS: Pipeline completed ===
+2025-06-11 12:34:53,505 - INFO - === START: Crypto ETL Pipeline ===
+2025-06-11 12:34:53,505 - INFO - Running: scripts/extract.py
+2025-06-11 12:34:55,552 - INFO - Finished: scripts/extract.py
+2025-06-11 12:34:55,552 - INFO - Running: scripts/transform.py
+2025-06-11 12:34:56,266 - INFO - Finished: scripts/transform.py
+2025-06-11 12:34:56,266 - INFO - Running: scripts/load.py
+2025-06-11 12:34:57,007 - INFO - Finished: scripts/load.py
+2025-06-11 12:34:57,007 - INFO - === SUCCESS: Pipeline completed ===
